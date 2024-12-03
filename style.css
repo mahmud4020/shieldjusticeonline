@@ -63,12 +63,19 @@ p {
     text-align: center;
 }
 
+.text_block_18 {
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+}
+
 .text_block_20 {
     font-weight: 700;
     font-size: 20px;
     line-height: 1.6;
     text-align: center;
 }
+
 .text_block_24 {
     font-size: 24px;
     line-height: 1.4;
@@ -88,11 +95,16 @@ p {
     line-height: 1.45;
 }
 
+/* common style end */
+
 .header-style {
     padding: 10px 35px;
     display: flex;
     align-items: center;
     background: var(--primary-color);
+    float: left;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .custom-bg {
@@ -172,6 +184,10 @@ p {
 }
 
 /* footer */
+.footer_wrapper {
+    padding: 30px 30px 0 30px;
+}
+
 .footer-button-group {
     display: flex;
     justify-content: center;
@@ -184,6 +200,7 @@ p {
     text-align: center;
     color: var(--btn-color);
     transition: .3s;
+    border-bottom: 1px solid transparent;
 }
 
 .footer-button-group a:last-child {
@@ -191,18 +208,26 @@ p {
     border: 0;
 }
 
-.footer-button-group a:hover{
+.footer-button-group a:hover {
     color: var(--btn-hover-color);
+    border-bottom: 1px solid var(--btn-hover-color);
 }
 
-/* privacy policy */
-.privacy_policy_wrapper{
+/* privacy policy and others */
+.fl-rich-text {
     color: var(--gray);
+    font-size: 14px;
 }
+
+
 /* media query */
 @media (max-width: 991px) {
     .header-style {
         padding: 20px;
+    }
+
+    .header-style .logo img {
+        width: 200px;
     }
 
     .custom-bg {
@@ -247,6 +272,11 @@ p {
 
     .text_block_21 {
         font-size: 18px;
+    }
+
+    .text_block_18 {
+        font-size: 16px;
+        line-height: 1.2;
     }
 
     .text_block_20 {
@@ -296,6 +326,10 @@ p {
         text-align: center;
     }
 
+    .header-style .logo img {
+        width: 150px;
+    }
+
     .custom-bg {
         background-position: center;
     }
@@ -335,6 +369,11 @@ p {
         font-size: 16px;
     }
 
+    .text_block_18 {
+        font-size: 14px;
+        line-height: 1;
+    }
+
     .text_block_20 {
         font-size: 16px;
         padding: 0 10px;
@@ -358,12 +397,6 @@ p {
         font-size: 22px;
     }
 
-    .icon_sec {
-        width: 30px;
-        height: 30px;
-        font-size: 20px;
-        margin-bottom: 15px;
-    }
 
     .case_review {
         padding: 20px 10px;
@@ -373,10 +406,20 @@ p {
         flex-direction: column;
         gap: 5px;
     }
+
     .footer-button-group a {
         border-right: none;
         padding-right: 0;
         padding: 5px;
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .footer-button-group a:last-child {
+        border-bottom: 1px solid transparent;
+    }
+    .footer-button-group a:last-child:hover {
+        border-color: var(--btn-hover-color);
     }
 
 }
