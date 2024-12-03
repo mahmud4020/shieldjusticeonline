@@ -1,0 +1,382 @@
+:root {
+    --primary-color: #00c6e5;
+    --white: #fff;
+    --faded-black: #333;
+    --black: #000;
+    --red: #ff0000;
+    --gray: #808080;
+    --btn-color: #001363;
+    --btn-hover-color: #001c8d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica", Verdana, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--btn-color);
+}
+
+p {
+    font-size: var(--text-16);
+}
+
+.sep_space {
+    margin-top: 30px;
+}
+
+.btn_custom_style {
+    padding: 10px 50px;
+    background: var(--btn-color);
+    font-size: 26px;
+    color: var(--white);
+}
+
+.btn_custom_style:hover {
+    background: var(--btn-hover-color);
+}
+
+.text_block_36 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.4;
+    text-align: center;
+    color: var(--black);
+}
+
+.text_block_30 {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--faded-black);
+    line-height: 1.2;
+}
+
+.text_block_21 {
+    font-weight: 700;
+    font-size: 21px;
+    color: var(--red);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.text_block_20 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+}
+.text_block_24 {
+    font-size: 24px;
+    line-height: 1.4;
+    font-weight: 700;
+    text-align: center;
+}
+
+.text_block_16 {
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--faded-black);
+}
+
+.text_block_14 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.45;
+}
+
+.header-style {
+    padding: 10px 35px;
+    display: flex;
+    align-items: center;
+    background: var(--primary-color);
+}
+
+.custom-bg {
+    background: url(./img/bg-template3-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.custom-padding {
+    padding: 20px 30px 30px 0;
+}
+
+.fl-module {
+    padding: 0 20px;
+}
+
+.side-img {
+    padding-left: 0;
+}
+
+.card-custom-title {
+    margin-bottom: 35px;
+}
+
+/* right form start*/
+.custom-form-header {
+    text-align: center;
+    padding: 20px;
+    background: #001363;
+    color: var(--white);
+}
+
+#qualify .form-select,
+#qualify .custom-input-group-style input {
+    height: 50px;
+    box-shadow: none;
+}
+
+#qualify .custom-input-group-style label {
+    font-size: 14px;
+}
+
+/* right form end */
+
+
+/* case_evaluations start */
+.case_evaluations {
+    padding: 50px 20px;
+    text-align: center;
+    border-top: 1px solid #d1d1d1;
+}
+
+.icon_sec {
+    width: 70px;
+    height: 70px;
+    background: #001363;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    border-radius: 50px;
+    margin: 0 auto 30px;
+    color: #fff;
+}
+
+.case_evaluations h2 {
+    margin-bottom: 30px;
+}
+
+/* case_evaluations end */
+
+/* case_review start */
+.case_review {
+    padding: 50px 20px;
+    text-align: center;
+    background: #00c6e510;
+}
+
+/* footer */
+.footer-button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-button-group a {
+    border-right: 1px solid;
+    padding-right: 10px;
+    text-align: center;
+    color: var(--btn-color);
+    transition: .3s;
+}
+
+.footer-button-group a:last-child {
+    padding: 0;
+    border: 0;
+}
+
+.footer-button-group a:hover{
+    color: var(--btn-hover-color);
+}
+
+/* privacy policy */
+.privacy_policy_wrapper{
+    color: var(--gray);
+}
+/* media query */
+@media (max-width: 991px) {
+    .header-style {
+        padding: 20px;
+    }
+
+    .custom-bg {
+        background-position: center;
+    }
+
+    .custom-padding {
+        padding: 15px 20px;
+    }
+
+    .fl-module {
+        padding: 0 10px;
+    }
+
+    .side-img {
+        padding-left: 10px;
+    }
+
+    .card-custom-title {
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+    #qualify .form-select,
+    #qualify .custom-input-group-style input {
+        height: 40px;
+    }
+
+    .btn_custom_style {
+        padding: 10px 30px;
+        font-size: 20px;
+    }
+
+    .text_block_36 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .text_block_30 {
+        font-size: 24px;
+    }
+
+    .text_block_21 {
+        font-size: 18px;
+    }
+
+    .text_block_20 {
+        font-size: 18px;
+        padding: 0 10px;
+    }
+
+    .text_block_16 {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .text_block_14 {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+
+    .case_evaluations {
+        padding: 30px 15px;
+    }
+
+    .case_evaluations h2 {
+        font-size: 24px;
+    }
+
+    .icon_sec {
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .case_review {
+        padding: 30px 15px;
+    }
+
+    .footer-button-group {
+        gap: 5px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .header-style {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .custom-bg {
+        background-position: center;
+    }
+
+    .custom-padding {
+        padding: 15px 20px;
+    }
+
+    .fl-module {
+        padding: 0 10px;
+    }
+
+    .side-img {
+        padding-left: 10px;
+    }
+
+    .card-custom-title {
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+    .btn_custom_style {
+        padding: 10px 30px;
+        font-size: 20px;
+    }
+
+    .text_block_36 {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+
+    .text_block_30 {
+        font-size: 22px;
+    }
+
+    .text_block_21 {
+        font-size: 16px;
+    }
+
+    .text_block_20 {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+
+    .text_block_16 {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .text_block_14 {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+
+    .case_evaluations {
+        padding: 20px 15px;
+    }
+
+    .case_evaluations h2 {
+        font-size: 22px;
+    }
+
+    .icon_sec {
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .case_review {
+        padding: 20px 10px;
+    }
+
+    .footer-button-group {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .footer-button-group a {
+        border-right: none;
+        padding-right: 0;
+        padding: 5px;
+    }
+
+}
