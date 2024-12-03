@@ -159,7 +159,13 @@ p {
     text-align: center;
     border-top: 1px solid #d1d1d1;
 }
-
+.case_evaluations .card{
+    border-color: transparent;
+    transition: .3s;
+}
+.case_evaluations .card:hover{
+    border-color: var(--gray);
+}
 .icon_sec {
     width: 70px;
     height: 70px;
