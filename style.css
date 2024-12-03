@@ -7,6 +7,7 @@
     --gray: #808080;
     --btn-color: #001363;
     --btn-hover-color: #001c8d;
+    --link-hover-color: #0028d2;
 }
 
 * {
@@ -209,8 +210,8 @@ p {
 }
 
 .footer-button-group a:hover {
-    color: var(--btn-hover-color);
-    border-bottom: 1px solid var(--btn-hover-color);
+    color: var(--link-hover-color);
+    border-bottom: 1px solid var(--link-hover-color);
 }
 
 /* privacy policy and others */
@@ -419,7 +420,7 @@ p {
         border-bottom: 1px solid transparent;
     }
     .footer-button-group a:last-child:hover {
-        border-color: var(--btn-hover-color);
+        border-color: var(--link-hover-color);
     }
 
 }
