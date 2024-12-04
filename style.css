@@ -228,7 +228,24 @@ p {
     font-size: 14px;
 }
 
-
+/* ccpa_privacy */
+.ccpa_privacy_title{
+    text-align: start;
+    border-bottom: 1px solid var(--black);
+    width: fit-content;
+}
+.ccpa_privacy_form .form-label{
+    font-weight: 600;
+}
+.ccpa_privacy_check {
+    margin: 30px 0;
+}
+.ccpa_privacy_check .form-check-label{
+    font-size: 14px;
+}
+form.ccpa_privacy_form input {
+    height: 50px;
+}
 /* media query */
 @media (max-width: 991px) {
     .header-style {
@@ -266,7 +283,7 @@ p {
     }
 
     .btn_custom_style {
-        padding: 10px 30px;
+        padding: 5px 25px;
         font-size: 20px;
     }
 
@@ -281,6 +298,9 @@ p {
 
     .text_block_21 {
         font-size: 18px;
+    }
+    .text_block_24 {
+        font-size: 20px;
     }
 
     .text_block_18 {
@@ -325,6 +345,19 @@ p {
     .footer-button-group {
         gap: 5px;
     }
+    .ccpa_privacy_check .form-check-label {
+        font-size: 12px;
+    }
+    form.ccpa_privacy_form input {
+        height: 40px;
+        font-size: 14px;
+    }
+    .ccpa_privacy_form .form-label{
+        font-size: 14px;
+    }
+    .ccpa_privacy_check {
+        margin: 20px 0;
+    }
 
 }
 
@@ -360,8 +393,7 @@ p {
     }
 
     .btn_custom_style {
-        padding: 10px 30px;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .text_block_36 {
@@ -372,7 +404,9 @@ p {
     .text_block_30 {
         font-size: 22px;
     }
-
+    .text_block_24 {
+        font-size: 18px;
+    }
     .text_block_21 {
         font-size: 16px;
     }
@@ -390,11 +424,6 @@ p {
     .text_block_16 {
         font-size: 12px;
         line-height: 1.5;
-    }
-
-    .text_block_14 {
-        font-size: 12px;
-        line-height: 1.4;
     }
 
     .case_evaluations {
