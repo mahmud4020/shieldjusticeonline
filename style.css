@@ -108,7 +108,7 @@ p {
     margin: 0 auto;
 }
 .header-style .logo img {
-    width: 150px;
+    width: 250px;
 }
 .custom-bg {
     background: url(./img/bg-template3-1.jpg);
@@ -236,7 +236,7 @@ p {
     }
 
     .header-style .logo img {
-        width: 100px;
+        width: 150px;
     }
 
     .custom-bg {
@@ -329,12 +329,15 @@ p {
 }
 
 @media (max-width: 767px) {
+
     .header-style {
         flex-direction: column;
         padding: 20px;
         text-align: center;
     }
-
+   .header-style .logo img {
+        width: 100px;
+    }
     .custom-bg {
         background-position: center;
     }
